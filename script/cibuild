@@ -7,6 +7,8 @@ process.chdir(path.dirname(__dirname));
 
 var homeDir = process.platform == 'win32' ? process.env.USERPROFILE : process.env.HOME;
 
+console.log(fs.readdirSync('/usr/share/nvm'));
+
 function loadEnvironmentVariables(filePath) {
   try {
     var lines = fs.readFileSync(filePath, 'utf8').trim().split('\n');
