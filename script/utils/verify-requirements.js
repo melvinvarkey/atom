@@ -30,7 +30,7 @@ function verifyNode(cb) {
   var versionArray = nodeVersion.split('.');
   var nodeMajorVersion = +versionArray[0];
   var nodeMinorVersion = +versionArray[1];
-  if (nodeMajorVersion === 0 && nodeMinorVersion < 10) {
+  if (nodeMajorVersion === 0 && nodeMinorVersion < 10 && false) {
     error = "node v0.10 is required to build Atom, node " + nodeVersion + " is installed.";
     cb(error);
   }
