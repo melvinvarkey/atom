@@ -29,7 +29,7 @@
     "legal-eagle": "~0.4.0",
     "minidump": "~0.7",
     "normalize-package-data": "0.2.12",
-    "npm": "~1.4.5",
+    "npm": "~6.14.6",
     "rcedit": "~0.1.2",
     "read-package-json": "1.1.8",
     "request": "~2.27.0",
